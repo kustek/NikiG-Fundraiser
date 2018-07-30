@@ -7,18 +7,18 @@ $(window).scroll(function() {
   if (screen.width > 414) {
     if (!isTop) {
       navbar.css('height','95px');
-      navbarLogo.css('width','250px');
+      navbarLogo.css('width','95px');
     } else {
       navbar.css( 'height', '75px' );
-      navbarLogo.css('width','200px');
+      navbarLogo.css('width','75px');
     }
   } else {
     if (!isTop) {
       navbar.css('height','75px');
-      navbarLogo.css('width','190px');
+      navbarLogo.css('width','75px');
     } else {
       navbar.css('height','60px');
-      navbarLogo.css('width','150px');
+      navbarLogo.css('width','60px');
     }
   }
 });
