@@ -23,13 +23,13 @@ $(document).ready(function(){
       case '0':
         return `./src/assets/img/pbsqr-0e.png`;
       case '5':
-        return `./src/assets/img/pbsqr-5e.png`;
+        return `./src/assets/img/pbsqr-70e.png`;
       case '10':
-        return `./src/assets/img/pbsqr-10e.png`;
+        return `./src/assets/img/pbsqr-700e.png`;
       case '20':
-        return `./src/assets/img/pbsqr-20e.png`;
+        return `./src/assets/img/pbsqr-7000e.png`;
       default:
-        return `https://ilfiron.com/payquicker/code.php?t=0&s=256&r=0&v=2&invoiceid=&amount=${amount}&iban=SK1583300000002600121198&bic=FIOZSKBAXXX&vs=102017&cs=&ss=&paynote=`
+        return `https://ilfiron.com/payquicker/code.php?t=0&s=256&r=0&v=2&invoiceid=&amount=${amount}&iban=SK6583300000002001438820&bic=FIOZSKBAXXX&vs=9999&cs=&ss=&paynote=TodayIsYourLuckyDay`
     }
   }
 
