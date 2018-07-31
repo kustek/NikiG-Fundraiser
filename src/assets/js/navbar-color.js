@@ -37,7 +37,7 @@ $(document).ready(function(){
         navbarLogoWhite.fadeOut(200, function () {
           navbarLogoWhite.addClass('hidden')
           navbarLogoBlack.removeClass('hidden')
-          navbar.css('background-color', 'rgba(237,63,164,1)');
+          navbar.css('background-color', 'rgba(154,64,237,1)');
           active.css('color', 'white');
           hr.css('background-color', 'white')
         }).fadeIn(200);
@@ -51,7 +51,7 @@ $(document).ready(function(){
           navbarLogoWhite.removeClass('hidden')
           navbar.css('background-color', 'white');
           active.css('color', 'black');
-          hr.css('background-color', 'rgba(237,63,164,1)')
+          hr.css('background-color', 'rgba(154,64,237,1)')
         }).fadeIn(200);
       }
     }
