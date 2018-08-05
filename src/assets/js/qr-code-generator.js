@@ -1,7 +1,7 @@
 'use strict'
 $(document).ready(function(){
   const btcAdress = `3QZPEQPNAU1s3ataeEQQHkViMdxCrc3oLx`;
-  const ltcAdress = `MJZMakch3DkRb3fdyMJCDkUjUzQnq3kwbk`;
+  const ltcAdress = `LSTgSVMQMMpqnRXYmr6brnBvtygdMmB4Ur`;
   const ethAdress = `0x5b8Eb98858C8c9040Ea6E3839025C983A671e4cf`;
 
   function getRates() {
