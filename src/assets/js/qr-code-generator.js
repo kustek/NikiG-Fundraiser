@@ -1,8 +1,8 @@
 'use strict'
 $(document).ready(function(){
-  const btcAdress = `1pbarBA4zP1bbCRydBUxweQxVfsaAHqDo`;
-  const ltcAdress = `LSDNJopkWAgEuhrD1ucKiFD6ybhoEeTRWH`;
-  const ethAdress = `0x363A4300D6800E1a45673255928d00c8b2DC7845`;
+  const btcAdress = `bc1qpu40zga7savkyz9nrn3h9cgr5rwpeyd0m7xnfz`;
+  const ltcAdress = `ltc1qe354g7nnfmt3e0vp2p5lzsedk50rdk3mqzatg0`;
+  const ethAdress = `0x5b8Eb98858C8c9040Ea6E3839025C983A671e4cf`;
 
   function getRates() {
     return $.ajax({
@@ -19,18 +19,7 @@ $(document).ready(function(){
   }
 
   function generateBySquareUrl(amount) {
-    switch (amount) {
-      case '0':
-        return `./src/assets/img/pbsqr-0e.png`;
-      case '5':
-        return `./src/assets/img/pbsqr-70e.png`;
-      case '10':
-        return `./src/assets/img/pbsqr-700e.png`;
-      case '20':
-        return `./src/assets/img/pbsqr-7000e.png`;
-      default:
-        return `https://ilfiron.com/payquicker/code.php?t=0&s=256&r=0&v=2&invoiceid=&amount=${amount}&iban=SK6583300000002001438820&bic=FIOZSKBAXXX&vs=9999&cs=&ss=&paynote=TodayIsYourLuckyDay`
-    }
+    return `https://ilfiron.com/payquicker/code.php?t=0&s=256&r=0&v=2&invoiceid=&amount=${amount}&iban=SK6583300000002001438820&bic=FIOZSKBAXXX&vs=9999&cs=&ss=&paynote=TodayIsYourLuckyDay`
   }
 
   function setNewQrs(amount) {
